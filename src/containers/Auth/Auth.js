@@ -96,7 +96,7 @@ const Auth = props => {
 
     const submitHandler = ( event ) => {
         event.preventDefault();
-        props.onAuth( authState.controls.email.value, authState.controls.password.value, authState.isSignup );
+        props.onAuth( authState.controls.email.value, authState.controls.password.value, isSignup );
     }
 
     const switchAuthModeHandler = () => {
